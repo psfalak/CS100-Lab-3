@@ -1,5 +1,5 @@
 #include "c-echo.h"
-
+#include "c-count.h"
 #include "gtest/gtest.h"
 
 
@@ -28,10 +28,12 @@ TEST(CountTest, ManySpaces) {
     EXPECT_EQ(5, count(test_str));
 }
 
-TEST(CountTest, Numbers) {
-    std::string test_str = "123456";
-    EXPECT_EQ(0, count(test_str));
-}
+
+
+
+
+
+
 
 
 
